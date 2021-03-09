@@ -1,6 +1,7 @@
 const Command = require('../../Structures/Command');
+const config = require('../../../config.json');
 const OblivionClient = require('../../Structures/OblivionClient');
-const newClient = new OblivionClient();
+const newClient = new OblivionClient(config);
 
 module.exports = class extends Command {
     constructor(...args) {

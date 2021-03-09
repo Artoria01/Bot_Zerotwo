@@ -1,0 +1,49 @@
+2021-03-09 07:46:17.898  INFO 31955 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.3
+	Build:          1176
+	Build time:     28.12.2020 18:59:16 UTC
+	Branch          master
+	Commit:         68d398a
+	Commit time:    28.12.2020 18:56:23 UTC
+	JVM:            13.0.4
+	Lavaplayer      1.3.65
+
+2021-03-09 07:46:19.524  INFO 31955 --- [main] lavalink.server.Launcher                 : Starting Launcher on Artoria-Desktop with PID 31955 (/home/artoria/Musique/OblivionBot/Lavalink.jar started by artoria in /home/artoria/Musique/OblivionBot)
+2021-03-09 07:46:19.532  INFO 31955 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-03-09 07:46:20.633  WARN 31955 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-03-09 07:46:30.072  WARN 31955 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-03-09 07:46:30.391  INFO 31955 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-03-09 07:46:30.392  INFO 31955 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10086 ms
+2021-03-09 07:46:35.826  WARN 31955 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-03-09 07:46:40.496  INFO 31955 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-03-09 07:46:42.220  INFO 31955 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2021-03-09 07:46:42.222  INFO 31955 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2021-03-09 07:46:42.240  INFO 31955 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2021-03-09 07:46:42.296  INFO 31955 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2021-03-09 07:46:43.567  INFO 31955 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-09 07:46:45.456  INFO 31955 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-03-09 07:46:45.533  INFO 31955 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-03-09 07:46:46.485  INFO 31955 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8000 (http) with context path ''
+2021-03-09 07:46:46.527  INFO 31955 --- [main] lavalink.server.Launcher                 : Started Launcher in 32.433 seconds (JVM running for 38.247)
+2021-03-09 07:46:46.534  INFO 31955 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-03-09 07:47:08.540  INFO 31955 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-09 07:47:08.543  INFO 31955 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-09 07:47:08.575  INFO 31955 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2021-03-09 07:47:08.701  INFO 31955 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:42348
+2021-03-09 07:47:09.081  INFO 31955 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:42348
+2021-03-09 10:02:13.913  INFO 31955 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=aTFmUbiGrRE"
+2021-03-09 10:02:14.064  INFO 31955 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"db2414d0c0b7c7388532ad75f0bbf2cc","op":"voiceUpdate","guildId":"804476342933389393","event":{"token":"fded4a60c57d092b","guild_id":"804476342933389393","endpoint":"eu-central9717.discord.media:443"}}
+2021-03-09 10:02:16.267  INFO 31955 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Sword Art Online Alicization: War of Underworld II Opening - ANIMA Full  by ReoNa (One Hour Version)
+2021-03-09 10:02:16.384  INFO 31955 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"804476342933389393","track":"QAAA7QIAZFN3b3JkIEFydCBPbmxpbmUgQWxpY2l6YXRpb246IFdhciBvZiBVbmRlcndvcmxkIElJIE9wZW5pbmcgLSBBTklNQSBGdWxsICBieSBSZW9OYSAoT25lIEhvdXIgVmVyc2lvbikAL1RoZU9uZUhvdXJHdXkgT2ZmaWNpYWwgTXVzaWMgVmlkZW9zIEFuaW1lIE11c2ljAAAAAAA4cTgAC2FURm1VYmlHclJFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YVRGbVViaUdyUkUAB3lvdXR1YmUAAAAAAAAAAA==","volume":100}
+2021-03-09 10:02:44.628  INFO 31955 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"804476342933389393","volume":50}
+2021-03-09 10:02:44.651  INFO 31955 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$572/0x00000001003f3440@5ccd43e6
+2021-03-09 10:02:44.653  INFO 31955 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-03-09 10:02:44.753  INFO 31955 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
